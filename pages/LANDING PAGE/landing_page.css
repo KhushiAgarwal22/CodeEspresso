@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    overflow:normal;
+}
+
+.nav{
+    margin:0;
+    background-color: black;
+}
