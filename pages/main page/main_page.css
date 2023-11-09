@@ -236,8 +236,6 @@ margin-bottom:1.2rem;
     margin-top:2.5rem;
     flex-direction: column;
     align-items:center;
-    border-style: solid;
-    border-color: rgb(234, 234, 234);
     width:24vw ;
     background-color: rgb(234, 234, 234);
 }
