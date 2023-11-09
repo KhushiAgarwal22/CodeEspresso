@@ -3,8 +3,57 @@
     margin:0;
     overflow:normal;
 }
+.navbar{
+    height:17vh;
+    display: flex;
+    flex-direction: row; 
+    background-color:rgba(44, 16, 16, 0.525); 
+    position: absolute;
+}
+ul {
+    list-style: none;
+}
+#logo{
+    height:90%;
+    cursor: pointer;
+}
+.nv1 {
+    height:17vh;
+    margin-left: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.nav{
+.nv2-1 ,
+.nv3-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nv2{
+    margin-right:32em;
+}
+ul li {
+    margin: 1.2rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-top: 12%;
+}
+a{
+    color: rgb(248, 195, 195);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li:hover{
+    transform: scale(1.2);
+}
+
+.nv3{
+    margin-right:0em;
+}
+.nav2{
     margin:0;
     background-image: url("/assets/header-bg.jpg");
     width: 212vh;
@@ -27,11 +76,11 @@
 }
 #mb1{
     height:300px;
-    margin:1.5em;
     padding:0px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     margin-top:2.5em;
+    flex-wrap: wrap;
 }
 #mb122{
     background-image: url("/assets/beans.jpg");
@@ -56,9 +105,18 @@
     height:15em;
     position: relative;
     float: right;
-    margin-right: 13em;
+    margin-right: 17em;
     margin-top:0;
-    width:100%;
+    filter: blur(2px);
+    transform-origin: 50% 50%;
+    animation: smoke1 3s linear infinite;
+}
+.smoke2{
+    height:14em;
+    position: absolute;
+    float: right;
+    margin-right: 16em;
+    margin-top:0;
     filter: blur(2px);
     transform-origin: 50% 50%;
     animation: smoke1 3s linear infinite;
