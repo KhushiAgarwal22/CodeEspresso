@@ -9,41 +9,41 @@
 </head>
 
 <body>
-    <div class="nav2">
-        <div class="navbar">
-            <div class="nv1">
-                  <img src="/assets/1989-modified.png" id="logo">
-            </div>
-            <div class="nv2">
-                 <ul class="nv2-1">
-                     <li><a href="/pages/main page/main_page.html">HOME</a></li>
-                     <li><a href="#">GIFT CARDS</a></li>
-                 </ul>
-            </div>
-            <div class="nv3">
-               <ul class="nv3-1">
-                  <li><a href="/pages/LogIn/SignUp.html">JOIN US!</a></li>
-                  <li><a href="/pages/LogIn/SignUp.html">LOGIN!</a></li>
-               </ul>
-            </div>
+    <div class="navbar">
+        <div class="nv1">
+            <img src="/assets/1989-modified.png" id="logo">
         </div>
-            <div>
+        <div class="nv2">
+            <ul class="nv2-1">
+                <li><a href="/pages/main page/main_page.html" target="_main">HOME</a></li>
+                <li><a href="#">GIFT CARDS</a></li>
+            </ul>
+        </div>
+        <div class="nv3">
+            <ul class="nv3-1">
+                <li><a href="/pages/LogIn/SignUp.html">JOIN US!</a></li>
+                <li><a href="/pages/LogIn/SignUp.html">LOGIN!</a></li>
+             </ul>
+        </div>
+    </div>
+    <div class="nav2">
+        <div>
             <h1 class="heading"><span></span></h1>
             <script>
                 const dynamicText = document.querySelector("h1 span");
                 const words = ["CODESPRESSO"];
-        
+
                 // Variables to track the position and deletion status of the word
                 let wordIndex = 0;
                 let charIndex = 0;
                 let isDeleting = false;
-        
+
                 const typeEffect = () => {
                     const currentWord = words[wordIndex];
                     const currentChar = currentWord.substring(0, charIndex);
                     dynamicText.textContent = currentChar;
                     dynamicText.classList.add("stop-blinking");
-        
+
                     if (!isDeleting && charIndex < currentWord.length) {
                         // If condition is true, type the next character
                         charIndex++;
@@ -60,15 +60,15 @@
                         setTimeout(typeEffect, 1200);
                     }
                 }
-        
+
                 typeEffect();
             </script>
-            </div>
-            <div class="smoke-wrap">
-                <img class="smoke" src="/assets/smoke.png"> 
-                <img class="smoke2" src="/assets/smoke.png">
-                <img class="smoke2" src="/assets/smoke.png">
-            </div>
+        </div>
+        <div class="smoke-wrap">
+            <img class="smoke" src="/assets/smoke.png">
+            <img class="smoke2" src="/assets/smoke.png">
+            <img class="smoke2" src="/assets/smoke.png">
+        </div>
     </div>
     <div class="mainbody">
         <div id="mb1">
@@ -90,7 +90,27 @@
     </div>
 
     <section class="footer">
-
+          <div class="about">
+            <h2>ABOUT</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nostrum itaque consequatur dolore optio voluptatem asperiores? Totam, vero dolorum cumque optio, esse placeat dolor cupiditate nobis illum sed ab nisi.</p>
+            
+          </div>
+          <div class="conus">
+          <div >
+              <h2>CONTACT US:</h2>
+              <p>98276726729</p>
+              <a href="mailto:kaajhudgu@122.com">MAIL HERE</a>
+          </div>
+          <div class="socials">
+                <h2>FOLLOW US:</h2>
+                <ul id="so">
+                    <li><a href="#"><img src="/assets/Twitter_Logo_new.jpg" height="25em"></a></li>
+                    <li><a href="#"><img src="/assets/fb.jpg" height="90em"></a></li>
+                    <li><a href="#"><img src="/assets/insta.jpg" height="90em"></li>
+                    <li><a href="#"><img src="/assets/linkedin.jpg" height="90em"></li>
+                </ul>
+          </div>
+        </div>
     </section>
 </body>
 
