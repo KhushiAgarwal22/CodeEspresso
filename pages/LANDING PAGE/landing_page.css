@@ -101,7 +101,7 @@ ul li:hover{
     height:15em;
     position: relative;
     float: right;
-    margin-right: 17em;
+    margin-right: 16em;
     margin-top:0;
     filter: blur(2px);
     transform-origin: 50% 50%;
@@ -156,22 +156,68 @@ ul li:hover{
 }
 
 .about{
-    margin-top: 5em;
-    margin-left:5em;
     width:30%;
     color: aliceblue;
+    margin-left:2em;
 }
 
 .conus{
     margin-top: 2em;
     margin-left:2em;
-    width:95%;
-    color: aliceblue;
+    color:#ffbebe;
     margin-bottom: 5em;
     display: flex;
     justify-content: space-between;
 }
+.contact{
+    height:25vh;
+    width:27vw;
+    padding:0.4rem;
+    padding-bottom: 0.4em;
+
+}
+#mail-logo{
+    height:48%;
+    width:33%;
+
+}
+.mail{
+    margin-bottom:0.2em;
+    width:100%;
+}
+.socials{
+    margin-left:46em;
+}
 #so{
+    height:10vh;
+    display: flex;   
+    width:20vw;
+}
+
+.socials-1{
+    margin-top:0.1em;
+    height:92%;
+}
+.socials-2{
+    margin-top:0;
+    height:100%;
+}
+.socials-3{
+    margin-top:0.2em;
+    height:85%;
+}
+
+.socials-1:hover,.socials-2:hover,.socials-3:hover,#mail-logo:hover{
+    transform:scale(1.2);
+}
+
+#logo-2{
+    height:19vh;
+}
+.about-logo{
+    margin-top: 5em;
     display: flex;
-    
+    justify-content: left;
+    margin-left:2em;
+    align-items: center;
 }
