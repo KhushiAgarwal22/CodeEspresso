@@ -171,10 +171,7 @@ ul li:hover{
     display: flex;
     justify-content: space-between;
 }
-.socials{
-   margin-left:2em;
-}
-
 #so{
     display: flex;
+    
 }
