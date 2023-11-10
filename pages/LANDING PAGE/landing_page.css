@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row; 
     background-color:rgba(44, 16, 16, 0.922); 
-    width: 98.5vw;
+    width: 99vw;
 }
 ul {
     list-style: none;
@@ -52,7 +52,7 @@ ul li:hover{
 .nav2{
     margin:0;
     background-image: url("/assets/header-bg.jpg");
-    width: 212vh;
+    width: 99vw;
     height: 102vh;
     background-size: cover;
 }
@@ -149,7 +149,7 @@ ul li:hover{
     margin-top: 12rem;
     background-image: url("/assets/footer-bg.jpg");
     background-size:cover ;
-    width :98.5vw;
+    width :99vw;
     height:75vh;
     padding-top:5%;
     padding-bottom: 5em;
