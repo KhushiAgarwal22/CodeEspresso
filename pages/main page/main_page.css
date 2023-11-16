@@ -67,48 +67,34 @@ ul li {
 
 
 #section-2 {
-    background: url('https://www.jiit.ac.in/sites/default/files/5_0.jpg') no-repeat center center/cover;
+    background: url('/assets/Banner\ 4.png') no-repeat center center/cover; 
     height: 80vh;
     width: 99vw;
-    margin-top: 7rem;
+    margin-top: 7.6rem;
     opacity: 1.5;
-    animation: jjj 7s ease-in-out 7s infinite;
-
+    animation: jjj 15s ease-in-out 3s infinite;
+    cursor:pointer;
 
 }
 
-
-
-
 @keyframes jjj {
     0% {
-        background: url('https://www.jiit.ac.in/sites/default/files/5_0.jpg') no-repeat center center/cover;
-
-
+        background: url('/assets/Banner\ 4.png') no-repeat center center/cover;
     }
-
 
     25% {
-        background: url('https://www.jiit.ac.in/sites/default/files/home-banner-1.jpg') no-repeat center center/cover;
-
-
+        background: url('/assets/Banner\ 1.png') no-repeat center center/cover;
     }
-
 
     50% {
-        background: url('https://www.jiit.ac.in/sites/default/files/founder_0.jpg') no-repeat center center/cover;
+        background: url('/assets/Banner\ 2\ Monday\ mornings.png') no-repeat center center/cover;
     }
-
-
     75% {
-        background: url('https://www.jiit.ac.in/sites/default/files/home-banner.jpg') no-repeat center center/cover;
+        background: url('/assets/Banner\ 3.png') no-repeat center center/cover;
     }
-
-
     100% {
-        background: url('https://www.jiit.ac.in/sites/default/files/1_3_0.jpg') no-repeat center center/cover;
+        background: url('/assets/Banner\ 4.png') no-repeat center center/cover;
     }
-
 
 }
 
@@ -153,7 +139,13 @@ ul li {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-
+.middle h1{
+    font-size:2rem;
+}
+.middle h3{
+    font-weight: lighter;
+    font-size:1.4rem;
+}
 
 .container:hover .container2 {
     opacity: 0.3;
@@ -165,12 +157,6 @@ ul li {
 }
 
 
-.text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 24px 20px;
-}
 #section-5 div{
     text-align:center;
     margin:5rem;
@@ -180,9 +166,7 @@ ul li {
     font-size:2.3rem;
     margin-bottom:0;
 }
-h1{
-    margin-left:2rem;
-}
+
 #section-4{
     margin-top:4rem;
     display:flex;
@@ -196,7 +180,10 @@ h1{
     flex-direction: column;
     cursor:pointer;
 }
-
+h1{
+text-align:center;
+margin-left:2rem;
+}
 .recom-2{
 height:15em;
 width:15em;
@@ -235,6 +222,17 @@ margin-bottom:1.2rem;
     bottom:0.4em;
 }
 
+#socials{
+    display:flex;
+    margin-top:2rem;
+}
+
+.socials-1{
+    height:35%;
+    width:35%;
+    margin:0.6em;
+    cursor:pointer;
+}
 /* footer */
 
 #footer {
