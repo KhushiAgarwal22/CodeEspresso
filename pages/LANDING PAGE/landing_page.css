@@ -217,7 +217,8 @@ ul li:hover{
 .about-logo{
     margin-top: 5em;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin-left:2em;
     align-items: center;
+    
 }
