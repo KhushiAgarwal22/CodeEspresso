@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.outergrid
+{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sidebar
+{
+    background-color: rgb(27, 17, 3);
+}
+.menugrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
